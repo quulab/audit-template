@@ -3,9 +3,10 @@
 ## How to generate a report
 1. Export md to epub html via https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced VS Code extension
 2. Add `class="pagebreak"` to html elements where page break is necessary
-3. Add css for page counter:
+3. Add css for page counter and visual additions:
 ```css
 @media print {
+    /* add page numbers */
     @page {
         @bottom-center {
             counter-increment: page;
@@ -14,6 +15,10 @@
         @top-center {
             content: "";
         }
+    }
+    /* code styles */
+    html body pre code {
+        text-wrap: wrap;
     }
 }
 ``` 
