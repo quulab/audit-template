@@ -19,7 +19,7 @@
 ``` 
 4. Save as PDF via chrome print tool
 5. Prepare front page:
-  a) Update `front_page_template.kra` with protocol details
-  b) Export `front_page_template.kra` to `png`
-  c) Convert `front_page_template.png` to `pdf` via https://www.ilovepdf.com/jpg_to_pdf
+    1) Update `front_page_template.kra` with protocol details
+    2) Export `front_page_template.kra` to `png`
+    3) Convert `front_page_template.png` to `pdf` via https://www.ilovepdf.com/jpg_to_pdf
 6. Merge `front_page_template.pdf` and `REPORT.pdf` via https://www.ilovepdf.com/merge_pdf
